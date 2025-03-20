@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(38, 212, 212); */
+}
+nav{
+    background-color: rgb(236, 156, 27);
+}
+nav .box{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+         common css    common css common css
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      Nav beer css start    Nav beern css start
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+nav{
+    padding: 20px 0px;
+}               
+
+nav .logo{
+    width: 20%;
+   
+    
+
+}
+
+nav .Menu{
+    width: 60%;
+   
+    
+}
+nav .Menu ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 130px;
+    justify-content: center;
+    
+    
+    
+}
+
+
+nav .Menu .ul1 .drop{
+    position: relative;
+}
+
+nav .Menu .ul1 .ul2{
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: -10px;
+    z-index: 1;
+    padding: 5px 20px;
+    margin: 0;
+    background-color: rgb(0, 255, 221);
+    border-radius: 5px;
+    transition: 1s;
+    opacity: 0;
+    border: 2px solid rgb(203, 143, 13);
+}
+
+
+
+
+nav .Menu .ul1 .ul2 li{
+    color: white;
+}
+
+
+nav .Menu  .drop:hover .ul2{
+    opacity: 1;
+    top: 30px;
+    
+
+}
+
+
+
+
+
+
+
+
+nav .Menu ul a{
+    transition: .4s;
+    border: 2px solid transparent;
+    padding: 2px 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+nav .Menu ul a::after{
+
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(231, 211, 211);
+    top: 2px;
+    left: 0;
+    position: absolute;
+    transition: 1s;
+}
+
+
+nav .Menu ul a:hover::after{
+    width: 100%;
+
+
+}
+
+
+nav .Menu ul a::before{
+
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(231, 211, 211);
+    bottom: 2px;
+    right: 0;
+    position: absolute;
+    transition: 1s;
+}
+
+
+nav .Menu ul a:hover::before{
+    width: 100%;
+
+
+}
+
+
+
+
+
+/* nav .Menu ul a:hover{
+    color: rgb(255, 0, 0);
+    border: 2px solid white;
+    
+    
+} */
+
+
+
+nav .botton{
+    width: 20%;
+    text-align: right;
+    
+    
+   
+
+}
+
+nav .botton a{
+    border: 2px solid transparent;
+    padding: 3px 7px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+nav .botton a:hover{
+   border: 2px solid white;
+}
+
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      Nav beer css end    Nav beern css end
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      section css start    section css start
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
+.section1 .box{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    /* background-color:; */
+    position: relative;
+
+}
+
+.section1 .box .box1{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    /* background: linear-gradient(rgb(58, 224, 218), rgb(171, 233, 0), rgb(167, 17, 193)); */
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.section1 .box .box1 .img1{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .4s;
+
+    
+}
+.section1 .box .box1 .img1:hover{
+    border: 2px solid white;
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%, -40%);
+}
+
+
+
+.section1 .box .box1 .name{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 7px;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .4s;
+    
+
+
+}
+.section1 .box .box1 .name:hover{
+    border: 2px solid white;
+    
+}
+
+
+.section1 .box .box2{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    /* background: linear-gradient(rgb(58, 224, 218), rgb(171, 233, 0), rgb(167, 17, 193)); */
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.section1 .box .box2 .name2{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 7px;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.section1 .box .box2 .name2:hover{
+    border: 2px solid white;
+    
+}
+
+
+
+
+
+.section1 .box .box2 .img2{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    transition: .4s;
+    border: 2px solid transparent;
+
+}
+
+.section1 .box .box2 .img2:hover{
+    border: 2px solid white;
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%, -40%);
+}
+
+
+
+.section1 .box .box3{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    /* background: linear-gradient(rgb(58, 224, 218), rgb(171, 233, 0), rgb(167, 17, 193)); */
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+
+.section1 .box .box3 .name3{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 7px;
+    position: absolute;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.section1 .box .box3 .name3:hover{
+    border: 2px solid white;
+    
+}
+
+
+
+
+
+
+.section1 .box .box3 .img3{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    transition: .4s;
+}
+
+
+.section1 .box .box3 .img3:hover{
+    border: 2px solid white;
+    left: 40%;
+    top: 40%;
+    transform: translate(-40%, -40%);
+}
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      section css end    section css end
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      section 2 css start    section 2 css start
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+.section2{
+    margin-top: 20px;
+}
+
+.section2 .box{
+    display: flex;
+    padding: 50px;
+    /* justify-content: space-between; */
+    column-gap: 175px;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+.section2 .box .box1{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+.section2 .box .box2{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.section2 .box .box3{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.section2 .box .box4{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.section2 .box .box5{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.section2 .box .box6{
+    height: 300px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]] 
+      section 2 css start    section 2 css start
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]] */
+
+
